@@ -1,5 +1,5 @@
 /* Reset default browser styles */
-html, body, h1, h2, h3, p, ul, li {
+html, body, h1, h2, h3, p, ul, ol, li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +10,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 .container {
@@ -77,48 +78,54 @@ section {
     border-radius: 5px;
 }
 
-.about {
+.rules {
     background-color: #fff;
     text-align: center;
 }
 
-.about h2 {
+.rules h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-.about p {
-    font-size: 18px;
-    margin-bottom: 20px;
+.rules ol {
+    list-style: decimal;
+    margin-left: 40px;
 }
 
-.services {
+.rules ol li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.invitation {
     background-color: #f4f4f4;
     text-align: center;
 }
 
-.services h2 {
+.invitation h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-.service {
-    background-color: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
-}
-
-.service img {
-    max-width: 100%;
-    height: auto;
+.invitation p {
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
-.service h3 {
-    font-size: 24px;
+.invitation ul {
+    list-style: disc;
+    margin-left: 40px;
+}
+
+.invitation ul li {
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
-.service p {
-    font-size: 16px;
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
